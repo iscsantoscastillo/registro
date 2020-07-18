@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<script src="https://cdn.datatables.net/plug-ins/1.10.19/api/sum().js"></script>
+<div class="container-fluid">
+    <div class="row">
+        <h2>Registro</h2>    
+    </div>
+    <br />
+    <br />
+    
+    <div class="row align-items-end">
+        <div class="col-sm-2">
+            <label for="iNombre" class="col-form-label">Nombre</label>
+            <input id="iNombre" class="form-control" />
+        </div>
+        
+    </div>
+    <div class="row align-items-end">
+        <div class="col-sm-2">
+            <label for="iCorreo" class="col-form-label">Correo</label>
+            <input id="iCorreo" class="form-control" />
+        </div>
+    </div>
+    <div class="row align-items-end">
+        <div class="col-sm-2">
+            <label for="iEstado" class="col-form-label">Estado</label>
+            <input id="iEstado" class="form-control" />
+        </div>
+    </div>
+    <div class="row align-items-end">
+        <div class="col-sm-2">
+            <label for="iEdad" class="col-form-label">Edad</label>
+            <input id="iEdad" class="form-control" />
+        </div>
+    </div>
+    <div class="row align-items-end">
+        <div class="col-sm-2">
+            <label for="iTelefono" class="col-form-label">Telefono</label>
+            <input id="iTelefono" class="form-control" />
+        </div>
+    </div>
+    <div class="row align-items-end">
+        <div class="col-sm-2">
+            <input type="checkbox" id="iAviso" class="form-control" />
+            <label for="iAviso" class="col-form-label">Enviar el aviso de privacidad</label>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <button class="btn btn-success" type="button" id="btnEnviar" (click)='writeNewPost()'>Enviar</button>
+    </div>
+</div>
